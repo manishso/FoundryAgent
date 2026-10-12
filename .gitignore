@@ -1,0 +1,20 @@
+# .NET build output
+bin/
+obj/
+
+# IDE
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+
+# Local secrets / environment
+.env
+.env.*
+!.env.example
+
+# azd and local agent-server state
+.azure/
+.checkpoints/
+.agentserver/
