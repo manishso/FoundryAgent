@@ -1,0 +1,21 @@
+CITY CARE HOSPITAL
+12 MG Road, Pune 411001
+FINAL BILL / DISCHARGE INVOICE
+
+Patient Name     : Rahul Sharma
+Patient ID       : CCH-2026-08812
+Admission Date   : 2026-10-05
+Discharge Date   : 2026-10-08
+Diagnosis        : Acute appendicitis
+Procedure        : Laparoscopic appendectomy
+
+Charges
+------------------------------------------------------------
+Room charges (3 days x 3500.00)                      10500.00
+Surgeon fee                                          25000.00
+Anaesthesia                                           8000.00
+Operation theatre charges                            12000.00
+Medicines and consumables                             6450.50
+Laboratory tests                                      3200.00
+------------------------------------------------------------
+TOTAL AMOUNT PAYABLE (INR)                           65150.50

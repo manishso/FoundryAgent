@@ -1,0 +1,36 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/Azure/azure-dev/main/schemas/v1.0/azure.yaml.json
+
+name: claim-orchestrator
+services:
+    ai-project:
+        host: azure.ai.project
+    claim-orchestrator:
+        project: .
+        host: azure.ai.agent
+        language: docker
+        docker:
+            remoteBuild: true
+        uses:
+            - ai-project
+        env:
+            # FOUNDRY_PROJECT_ENDPOINT is injected by Foundry at runtime.
+            INTAKE_AGENT_NAME: ${INTAKE_AGENT_NAME}
+            POLICY_AGENT_NAME: ${POLICY_AGENT_NAME}
+        container:
+            resources:
+                cpu: "0.5"
+                memory: 1Gi
+        description: |
+            MAF workflow that checks a hospital bill: the intake agent extracts it, C# validates the totals,
+            then the policy agent checks coverage or the bill stops for review.
+        kind: hosted
+        metadata:
+            tags:
+                - Agent Framework
+                - AI Agent Hosting
+                - Responses Protocol
+                - Workflow
+        name: claim-orchestrator
+        protocols:
+            - protocol: responses
+              version: 2.0.0

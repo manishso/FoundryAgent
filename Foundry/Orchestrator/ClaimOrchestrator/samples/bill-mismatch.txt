@@ -1,0 +1,20 @@
+GREEN VALLEY HOSPITAL
+45 FC Road, Pune 411004
+FINAL BILL / DISCHARGE INVOICE
+
+Patient Name     : Priya Desai
+Patient ID       : GVH-2026-04417
+Admission Date   : 2026-10-12
+Discharge Date   : 2026-10-14
+Diagnosis        : Gallstones (cholelithiasis)
+Procedure        : Laparoscopic cholecystectomy
+
+Charges
+------------------------------------------------------------
+Room charges (2 days x 4000.00)                       8000.00
+Surgeon fee                                          30000.00
+Anaesthesia                                           9000.00
+Operation theatre charges                            14000.00
+Medicines and consumables                             5200.00
+------------------------------------------------------------
+TOTAL AMOUNT PAYABLE (INR)                           68200.00
